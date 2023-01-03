@@ -13,14 +13,14 @@ In AutoRUs, they need to change their decision-making process. Jeremy, who has w
  
 ## Linear Regression to Predict MPG
 ![Summary_table Q1](https://user-images.githubusercontent.com/108844775/210302404-dd163d46-2cfc-491d-82d4-8101dde2d84c.png)
-Our linear regression is of the manufactoring lots together. The mean is 1498.78  for the sample which makes our population mean to be determine 1500.
+Linear regression pass through all variables to determine their coefficients.
 
 ![LM_Q2](https://user-images.githubusercontent.com/108844775/210302381-b87ebf99-5a26-45ba-8eca-03f3ce26cd9c.png)
 In our linear regression, mpg is our response variable and vehicle length, vehicle weight, spoiler angle, ground clearance, and AWD is our predictor variables. Each variable comes from the dataset called MechaCar_mpg. The residual is the difference between the observed value and the predicted value from the regression model. The minimum residual is -19.4701, the median residual is -0.0692, and the maximum residual is 18.5849. the Pr(>|t|) is the p-value that corresponds to the t-statistic, if the value is less than 0.05 then the predictor variable is said to be statistically significant. Here we can see that vehicle length and ground clearance are statistically significant predictors while vehicle weight, spoiler angle, and AWD are not. The multiple R-squared = 0.7149, indicates that the closer it is to 1, the better the predictor variables can predict the value of the response variable.
 
 ## Summary Statistics on Suspension Coils
 ![SC_total_summary](https://user-images.githubusercontent.com/108844775/210301880-bb90eee8-a995-4b58-bed0-10ecd7af1206.png)
-Together the manufacturing lots meet the design specification of the variance of the suspension coil must not exceed 100 pounds per square inch. As you can see the variance is 62.29356 which is in the range of meeting the reguirements. 
+Together the manufacturing lots meet the design specification of the variance of the suspension coil must not exceed 100 pounds per square inch. As you can see the variance is 62.29356 which is in the range of meeting the reguirements. Our linear regression is of the manufactoring lots together. The mean is 1498.78  for the sample which makes our population mean to be determine 1500.
 
 ![SC_lot_summary](https://user-images.githubusercontent.com/108844775/210301883-6d4f99b8-d327-4ff2-81c9-3144f5bc3fa5.png)
 Individually Lots 1 & 2 meet the design specification of not exceeding 100 pounds per square inch. However, Lot 3 does not meet the design specification. 
@@ -54,4 +54,4 @@ Null Hypothesis = PSI < 1500. Alternative Hypothesis = PSI > 1500
 Doing a multiple linear regression and a t-test of the manufacturing lots individual and together. Multiple linear regression will deter how much variance in the dependent variable is accounted fro in alinear combination of independent variables. The t-test will help us find the statistical differencebetween the mean of the sample distribution an the mean of the population distribution. We will be able to see if they meet the design specification of not exceeding 1500 PSI.
 
 4. What data is needed to run the statistical test?
-We need numerical data to run a continuous data type.
+Our data is continuous data type therefore we are able to run a multiple linear regression, simple t-test.
